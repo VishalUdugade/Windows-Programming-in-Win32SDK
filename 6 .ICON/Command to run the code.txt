@@ -1,0 +1,8 @@
+cl.exe /c /EHsc WindowIcon.cpp
+
+
+rc.exe MyWindow.rc
+
+
+
+link.exe WindowIcon.obj MyWindow.res User32.lib gdi32.lib /SUBSYSTEM:WINDOWS

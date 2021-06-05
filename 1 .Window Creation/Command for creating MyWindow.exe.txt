@@ -1,0 +1,9 @@
+//command of Compilation 
+
+    cl.exe  /c  / EHsc  MyWindow.cpp
+
+
+//command for linking
+
+    link.exe MyWindow.obj  User32.lib  GDI32.lib  /SUBSYSTEM:WINDOWS
+
